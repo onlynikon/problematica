@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .logo {
+    width: 150px;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.3em 1em;
+    border-radius: 0.3em;
+    transition: background 0.3s ease;
+  }
+  
+  
+  .nav a:hover, .nav .active {
+    background-color: #e10073;
+  }
+  
+  
+  .hero {
+    background: linear-gradient(to right, #1a1a1a, #4a4a4a);
+    color: #ffffff;
+    text-align: center;
+    padding: 4em 1em;
+  }
+  
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  
+  .eventos {
+    text-align: center;
+    margin: 3em 0;
+  }
+  
+  
+  .evento-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+  }
+  
+  
+  .evento-card {
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    width: 300px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  .evento-card img {
+    width: 100%;
+    border-radius: 0.5em;
+  }
+  
+  
+  .btn-comprar {
+    margin-top: 1em;
+    background-color: #e10073;
+    color: #ffffff;
+    padding: 0.7em 1.5em;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .contacto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding-bottom: 3em;
+  }
+  
+  
+  .contacto aside {
+    min-width: 250px;
+    margin-bottom: 1em;
+  }
+  
+  
+  form {
+    flex: 1;
+    min-width: 250px;
+    margin-left: 2em;
+  }
+  
+  
+  form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  
+  form input, form select, form textarea {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  
+  button {
+    background-color: #e10073;
+    color: #ffffff;
+    border: none;
+    padding: 0.7em;
+    margin-top: 1em;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  button:hover {
+    background-color: #d00066; 
+  }
